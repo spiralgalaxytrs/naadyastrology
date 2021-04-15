@@ -181,27 +181,27 @@ online free nadi jothidam
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="ast_journal_box_wrapper">
-					<form>
+					<form action="#" method="get" id="bookingForm">
 						<h3>appointment form</h3>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Name: </label>
-							<input type="text" placeholder="Enter name">
+							<input type="text" placeholder="Enter name" id="name" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Date and time of Birth</label>
-							<input type="datetime-local" placeholder="Date & Time">
+							<input type="datetime-local" placeholder="Date & Time" id="dob" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Country and Big City of Your Birth:</label>
-							<input type="text" placeholder="Country - City">
+							<input type="text" placeholder="Country - City" id="dobcity" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Educational Qualification:</label>
-							<input type="text" placeholder="Enter Your Educational Qualification">
+							<input type="text" placeholder="Enter Your Educational Qualification" id="qualification" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>What are you doing</label>
-							<select>
+							<select id="work" required>
 								<option value="Job in Government"> Job in Government </option>
 								<option value="Job In Private Company">Job In Private Company</option>
 								<option value="Own Business">Own Business</option>
@@ -214,149 +214,169 @@ online free nadi jothidam
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Explain About Your Job/Business</label>
-							<input type="text" placeholder="Explain About Your Job/Business">
+							<input type="text" placeholder="Explain About Your Job/Business" id="expalinwork" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Working in which country</label>
-							<input type="text" placeholder="Working in which country">
+							<input type="text" placeholder="Working in which country" id="workcountry" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many times you married</label>
-							<input type="text" placeholder="How many times you married">
+							<input type="text" placeholder="How many times you married" id="marriedtimes" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>With which Wife/Husband you are living now</label>
-							<input type="text" placeholder="With which Wife/Husband you are living now">
+							<input type="text" placeholder="With which Wife/Husband you are living now" id="living" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Please Explain about your Court case problem if you have</label>
-							<input type="text" placeholder="Please Explain about your Court case problem if you have">
+							<input type="text" placeholder="Please Explain about your Court case problem if you have" id="court" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Please Explain about your Health problems if you have</label>
-							<input type="text" placeholder="Please Explain about your Health problems if you have">
+							<input type="text" placeholder="Please Explain about your Health problems if you have" id="health" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Please Explain about your Loan problems if you have</label>
-							<input type="text" placeholder="Please Explain about your Loan problems if you have">
+							<input type="text" placeholder="Please Explain about your Loan problems if you have" id="loan" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Father Name</label>
-							<input type="text" placeholder="Enter Father Name">
+							<input type="text" placeholder="Enter Father Name" id="fname" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Father Alive or Not/label>
-							<select>
+							<select id="falive" required>
 								<option value="Alive">Alive </option>
 								<option value="Not Alive">Not Alive</option>
 							</select>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Father Age:</label>
-							<input type="text" placeholder="Father Age:">
+							<input type="text" placeholder="Father Age:" id="fage" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Fathers occupation</label>
-							<input type="text" placeholder="Fathers occupation">
+							<input type="text" placeholder="Fathers occupation" id="fwork" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many times Father married</label>
-							<input type="text" placeholder="How many times Father married">
+							<input type="text" placeholder="How many times Father married" id="fmarriedtimes" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Mothers Name</label>
-							<input type="text" placeholder="Enter Mothers  Name">
+							<input type="text" placeholder="Enter Mothers  Name" id="mname" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Mothers Alive or Not/label>
-							<select>
+							<select id="malive" required>
 								<option value="Alive">Alive </option>
 								<option value="Not Alive">Not Alive</option>
 							</select>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Mothers Age:</label>
-							<input type="text" placeholder="Father Age:">
+							<input type="text" placeholder="Father Age:" id="mage" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Mothers occupation</label>
-							<input type="text" placeholder="Fathers occupation">
+							<input type="text" placeholder="Fathers occupation" id="mwork" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many times Mother married</label>
-							<input type="text" placeholder="How many times Mother married">
+							<input type="text" placeholder="How many times Mother married" id="mmarriedtimes" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Husband or Wife Name</label>
-							<input type="text" placeholder="Enter Mothers  Name">
+							<input type="text" placeholder="Enter Husband or Wife Name" id="hwname" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Husband or Wife Alive or Not</label>
-							<select>
+							<select id="hwalive" required>
 								<option value="Alive">Alive </option>
 								<option value="Not Alive">Not Alive</option>
 							</select>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Husband or Wife Age:</label>
-							<input type="text" placeholder="Father Age:">
+							<input type="text" placeholder="Husband or Wife Age:" id="hwage" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Husband or Wife occupation</label>
-							<input type="text" placeholder="Fathers occupation">
+							<input type="text" placeholder="Husband or Wife occupation" id="hwwork" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many times Your Wife/Husband got married</label>
-							<input type="text" placeholder="How many times Your Wife/Husband got married">
+							<input type="text" placeholder="How many times Your Wife/Husband got married" id="hwmarriedtimes" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many times you got married</label>
-							<input type="text" placeholder="How many times you got married">
+							<input type="text" placeholder="How many times you got married" id="hwmarriedtime" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many Brothers you have and please specify younger or elder and they married or not</label>
-							<textarea placeholder="How many Brothers you have and please specify younger or elder and they married or not" rows="4"></textarea>
+							<textarea placeholder="How many Brothers you have and please specify younger or elder and they married or not" rows="4" id="siblingsd" required></textarea>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<label>How many Sisters you have and please specify younger or elder and they married or not </label>
-							<textarea placeholder="How many Sisters you have and please specify younger or elder and they married or not " rows="4"></textarea>
+							<label>How many Brothers you have and please specify younger or elder and their education and job</label>
+							<textarea placeholder="How many Sisters you have and please specify younger or elder and they married or not " id="siblingse" required rows="4"></textarea>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>How many Children you have and please specify elder to younger and they married or not and their education and job</label>
-							<textarea placeholder="How many Children you have and please specify elder to younger and they married or not and their education and job" rows="4"></textarea>
+							<textarea placeholder="How many Children you have and please specify elder to younger and they married or not and their education and job" id="child" required rows="4"></textarea>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Please type here if you want to share something with us</label>
-							<textarea placeholder="Message" rows="5"></textarea>
+							<textarea placeholder="Message" rows="5"  id="Message" required></textarea>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>About what you what to know mainly</label>
-							<select>
+							<select id="problem" required>
 								<option value="Finance">Finance </option>
 								<option value="Education">Education</option>
 								<option value="Property">Property</option>
+								<option value="Job">Job</option>
+								<option value="Business">Business</option>
+								<option value="Abroad">Abroad</option>
+								<option value="Business Partner">Business Partner</option>
+								<option value="Court Case">Court Case</option>
+								<option value="Health">Health</option>
+								<option value="First Marriage">First Marriage</option>
+								<option value="Another Marriage">Another Marriage</option>
+								<option value="Divorce Case">Divorce Case</option>
+								<option value="Children">Children</option>
+								<option value="Brothers and Sisters">Brothers and Sisters</option>
+								<option value="Father">Father</option>
+								<option value="Mother">Mother</option>
+								<option value="Wife or Husband">Wife or Husband</option>
+								<option value="Spiritual">Spiritual</option>
+								<option value="Longevity">Longevity</option>
+								<option value="Previous Life Karma and Solutions">Previous Life Karma and Solutions</option>
+								<option value="Next Birth">Next Birth</option>
+								<option value="Political Life">Political Life</option>
+								<option value="Love Affaire">Love Affaire</option>
 							</select>
 						</div>						
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Contact Number</label>
-							<input type="text" placeholder="Your Contact Number">
+							<input type="text" placeholder="Your Contact Number" id="cnumber" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your WhatsApp Number</label>
-							<input type="text" placeholder="Your WhatsApp Number">
+							<input type="text" placeholder="Your WhatsApp Number" id="wnumber" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Your Email Address</label>
-							<input type="text" placeholder="Your Email Address">
+							<input type="text" placeholder="Your Email Address" id="email" required>
 						</div>
 						
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Choose Your Date and time of Appointment</label>
-							<input type="datetime-local" placeholder="Date & Time">
+							<input type="datetime-local" placeholder="Date & Time" id="appointmenttime" required>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<label>Upload Your Thumb Impression - Male - Right, Female - Left (You can send by Whatsapp also +91 9123456789)</label>
-							<input type="file" id="Thumb" name="Thumb">
+							<input type="file" id="Thumb" name="Thumb" required>
 						</div>
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<button type="button" class="ast_btn pull-right">make an appointment</button>
