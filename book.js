@@ -84,6 +84,5 @@ function testVariable() {
                 Body:'The New Booking Details <br/>'+result1+'<br/> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
                 }).then((message)=>alert("Your Details Share With TRS!!<br>We Will Get Touch In 24 Hours!"));
                 }
-        }); 
-                    }
+        
 
