@@ -56,10 +56,12 @@ function testVariable() {
 	alert("Fill all details");
         }else
         {
-            const request = new XMLHttpRequest();
+		myFunction();
+		//telegram
+           // const request = new XMLHttpRequest();
 		//const url = ''+result;
-        request.open("post", url); 
-        request.send();
+       // request.open("post", url); 
+       // request.send();
         fetch("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message="+Clink+"/%0AContact No: "+CPh+"%0AHello "+strText32+",%0AThank you for Booking with "+Cname+".Your "+strText2+" Booking has been Confirmed on "+strText4+".&language=english&route=p&numbers="+strText34)
 		.then(response=>{
 			if(response.status==200){
@@ -69,10 +71,7 @@ function testVariable() {
 			}
 		})    			
         }
-
-});
-}       
-    function myFunction() 
+		     function myFunction() 
                 {
                 Email.send({
                 Host:"smtp.gmail.com",
@@ -84,5 +83,9 @@ function testVariable() {
                 Body:'The New Booking Details <br/>'+result1+'<br/> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
                 }).then((message)=>alert("Your Details Share With TRS!!<br>We Will Get Touch In 24 Hours!"));
                 }
+
+});
+}       
+
         
 
