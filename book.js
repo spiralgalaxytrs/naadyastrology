@@ -42,10 +42,44 @@ function testVariable() {
 	var CPh="99123456788";
 	var Cname="xyz";
 
-
-
     var result = '%0AYour Name:   ' + strText1 + '%0AYour Date and time of Birth: ' + strText2 +'%0ACountry and Big City of Your Birth: ' + strText3+  '%0AYour Educational Qualification: ' + strText4+ '%0AWhat are you doing: ' + strText5 +'%0AExplain About Your Job/Business: ' + strText6+  '%0AWorking in which country: ' + strText7+ '%0AHow many times you married: ' + strText8 +'%0AWith which Wife/Husband you are living now: ' + strText9+  '%0APlease Explain about your Court case problem if you have: ' + strText10+'%0APlease Explain about your Health problems if you have:  ' + strText11 + '%0APlease Explain about your Loan problems if you have: ' + strText12 +'%0AFather Name: ' + strText13+  '%0AFather Alive or Not : ' + strText14+ '%0AFathers occupation: ' + strText15 +'%0AHow many times Father married: ' + strText16+  '%0AMothers Name: ' + strText17+ '%0AMother Alive or Not: ' + strText18 +'%0AMother Age: ' + strText19+  '%0AMothers occupation: ' + strText20+'%0AHow many times Mother married:  ' + strText21 + '%0AYour Husband or Wife Name: ' + strText22 +'%0AYour Husband or Wife Alive or Not: ' + strText23+  '%0AYour Husband or Wife Age: ' + strText24+ '%0AYour Husband or Wife Occupation: ' + strText25 +'%0AHow many times Your Wife/Husband got married: ' + strText26+  '%0AHow many times you got married: ' + strText27+ '%0AHow many Brothers you have and please specify younger or elder and they married or not: ' + strText28 +'%0AHow many Sisters you have and please specify younger or elder and they married or not: ' + strText29+  '%0AHow many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText30+'%0AAbout what you what to know mainly:  ' + strText31 + '%0AYour Contact Number: ' + strText32 +'%0AYour WhatsApp Number: ' + strText33+  '%0APlease type here if you want to share something with us: ' + strText34+ '%0AThumb: ' + strText35 +'%0Aa: ' + strText36+  '%0Aa: ' + strText37+ '%0Aa: ' + strText38;
-    var result1 = '<br/>Your Name:   ' + strText1 + '<br/>Your Date and time of Birth: ' + strText2 +'<br/>Country and Big City of Your Birth: ' + strText3+  '<br/>Your Educational Qualification: ' + strText4+ '<br/>What are you doing: ' + strText5 +'<br/>Explain About Your Job/Business: ' + strText6+  '<br/>Working in which country: ' + strText7+ '<br/>How many times you married: ' + strText8 +'<br/>With which Wife/Husband you are living now: ' + strText9+  '<br/>Please Explain about your Court case problem if you have: ' + strText10+'<br/>Please Explain about your Health problems if you have:  ' + strText11 + '<br/>Please Explain about your Loan problems if you have: ' + strText12 +'<br/>Father Name: ' + strText13+  '<br/>Father Alive or Not : ' + strText14+ '<br/>Fathers occupation: ' + strText15 +'<br/>How many times Father married: ' + strText16+  '<br/>Mothers Name: ' + strText17+ '<br/>Mother Alive or Not: ' + strText18 +'<br/>Mother Age: ' + strText19+  '<br/>Mothers occupation: ' + strText20+'<br/>How many times Mother married:  ' + strText21 + '<br/>Your Husband or Wife Name: ' + strText22 +'<br/>Your Husband or Wife Alive or Not: ' + strText23+  '<br/>Your Husband or Wife Age: ' + strText24+ '<br/>Your Husband or Wife Occupation: ' + strText25 +'<br/>How many times Your Wife/Husband got married: ' + strText26+  '<br/>How many times you got married: ' + strText27+ '<br/>How many Brothers you have and please specify younger or elder and they married or not: ' + strText28 +'<br/>How many Sisters you have and please specify younger or elder and they married or not: ' + strText29+  '<br/>How many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText30+'<br/>About what you what to know mainly:  ' + strText31 + '<br/>Your Contact Number: ' + strText32 +'<br/>Your WhatsApp Number: ' + strText33+  '<br/>Please type here if you want to share something with us: ' + strText34+ '<br/>Thumb: ' + strText35 +'<br/>a: ' + strText36+  '<br/>a: ' + strText37+ '<br/>a: ' + strText38;
+    var result1 = '<br/>Your Name:   ' + strText1 +
+	'<br/>Your Date and time of Birth: ' + strText2 +
+	'<br/>Country and Big City of Your Birth: ' + strText3+ 
+	'<br/>Your Educational Qualification: ' + strText4+
+	'<br/>What are you doing: ' + strText5 +
+	'<br/>Explain About Your Job/Business: ' + strText6+
+	'<br/>Working in which country: ' + strText7+ 
+	'<br/>How many times you married: ' + strText8 +
+	'<br/>With which Wife/Husband you are living now: ' + strText9+ 
+	'<br/>Please Explain about your Court case problem if you have: ' + strText10+
+	'<br/>Please Explain about your Health problems if you have:  ' + strText11 + 
+	'<br/>Please Explain about your Loan problems if you have: ' + strText12 +'<br/>Father Name: ' + strText13+ 
+	'<br/>Father Alive or Not : ' + strText14+
+	'<br/>Father Age: ' + strText15+
+	'<br/>Fathers occupation: ' + strText16 +
+	'<br/>How many times Father married: ' + strText17+ 
+	'<br/>Mothers Name: ' + strText18+ 
+	'<br/>Mother Alive or Not: ' + strText19+
+	'<br/>Mother Age: ' + strText20+ 
+	'<br/>Mothers occupation: ' + strText21+
+	'<br/>How many times Mother married:  ' + strText22 + 
+	'<br/>Your Husband or Wife Name: ' + strText23 +
+	'<br/>Your Husband or Wife Alive or Not: ' + strText24+
+	'<br/>Your Husband or Wife Age: ' + strText25+
+	'<br/>Your Husband or Wife Occupation: ' + strText26 +
+	'<br/>How many times Your Wife/Husband got married: ' + strText27+
+	'<br/>How many times you got married: ' + strText28+
+	'<br/>How many Brothers you have and please specify younger or elder and they married or not: ' + strText29 +
+	'<br/>How many Sisters you have and please specify younger or elder and they married or not: ' + strText30+  
+	'<br/>How many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText31+
+	'<br/>Please type here if you want to share something with us: ' + strText32+
+	'<br/>About what you what to know mainly:  ' + strText33 +
+	'<br/>Your Contact Number: ' + strText34 +
+	'<br/>WhatsApp Number: ' + strText35 +
+	'<br/> Email Address: ' + strText36+ 
+	'<br/>Date And Time Of Appointment: ' + strText37+
+	'<br/>Thumb Image Url: ' + strText38;
 
     var finalMsg = encodeURI(result);
          document.getElementById("bookingForm").addEventListener("submit", (e) => {
