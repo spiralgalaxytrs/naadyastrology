@@ -1,6 +1,4 @@
 function testVariable() {
-	
-    var strText  = document.getElementById("").value;
     var strText1 = document.getElementById("").value;
     var strText2 = document.getElementById("").value;
     var strText3 = document.getElementById("").value;
@@ -47,13 +45,14 @@ function testVariable() {
 
 
     var result = 'a:  ' + strText + '%0Aa: ' + strText1 +'%0Aa: ' + strText2+  '%0Aa: ' + strText3;
-
+myFunction();
 var finalMsg = encodeURI(result);
          document.getElementById("bookingForm").addEventListener("submit", (e) => {
 e.preventDefault();
-if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText5==""||strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6==""||strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6==""||strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6==""||strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6==""||strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6==""||strText4==""||strText6=="")
+if(strText1==""||strText2==""||strText3==""||strText4==""||strText5==""||strText6==""||strText7==""||strText8==""||strText9==""||strText10==""||strText11==""||strText12==""||strText13==""||strText14==""||strText15==""||strText16==""||strText17==""||strText18==""||strText19==""||strText20==""||strText21==""||strText22==""||strText23==""||strText24==""||strText25==""||strText26==""||strText27==""||strText28==""||strText29==""||strText30==""||strText31==""||strText32==""||strText33==""||strText34==""||strText35==""||strText36==""||strText37==""||strText38=="")
         {
         console.log('error');
+	alert("Fill all details");
         }else
         {
             const request = new XMLHttpRequest();
@@ -72,5 +71,18 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText5
 
 });
 }       
-   
+    function myFunction() 
+                {
+                Email.send({
+                Host:"smtp.gmail.com",
+                Username:'thereciprocalolutions.projects@gmail.com',
+                Password:'cgenxthsgpwplxoy',
+                To: 'thereciprocalsolutions@gmail.com',
+                From: 'thereciprocalolutions.projects@gmail.com',
+                Subject: 'New Booking '+strText,
+                Body:'The New Booking Details <br/>'+result+'<br/> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
+                }).then((message)=>alert("Your Details Share With TRS!!<br>We Will Get Touch In 24 Hours!"));
+                }
+        }); 
+                    }
 
