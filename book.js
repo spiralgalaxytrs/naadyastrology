@@ -44,9 +44,9 @@ function testVariable() {
 
 
 
-    var result = '%0Aa:  ' + strText1 + '%0Aa: ' + strText2 +'%0Aa: ' + strText3+  '%0Aa: ' + strText4+ '%0Aa: ' + strText5 +'%0Aa: ' + strText6+  '%0Aa: ' + strText7+ '%0Aa: ' + strText8 +'%0Aa: ' + strText9+  '%0Aa: ' + strText10+'%0Aa:  ' + strText11 + '%0Aa: ' + strText12 +'%0Aa: ' + strText13+  '%0Aa: ' + strText14+ '%0Aa: ' + strText15 +'%0Aa: ' + strText16+  '%0Aa: ' + strText17+ '%0Aa: ' + strText18 +'%0Aa: ' + strText19+  '%0Aa: ' + strText20+'%0Aa:  ' + strText21 + '%0Aa: ' + strText22 +'%0Aa: ' + strText23+  '%0Aa: ' + strText24+ '%0Aa: ' + strText25 +'%0Aa: ' + strText26+  '%0Aa: ' + strText27+ '%0Aa: ' + strText28 +'%0Aa: ' + strText29+  '%0Aa: ' + strText30+'%0Aa:  ' + strText31 + '%0Aa: ' + strText32 +'%0Aa: ' + strText33+  '%0Aa: ' + strText34+ '%0Aa: ' + strText35 +'%0Aa: ' + strText36+  '%0Aa: ' + strText37+ '%0Aa: ' + strText38;
-    var result1 = '<br/>a:  ' + strText1 + '<br/>a: ' + strText2 +'<br/>a: ' + strText3+  '<br/>a: ' + strText4+ '<br/>a: ' + strText5 +'<br/>a: ' + strText6+  '<br/>a: ' + strText7+ '<br/>a: ' + strText8 +'<br/>a: ' + strText9+  '<br/>a: ' + strText10+'<br/>a:  ' + strText11 + '<br/>a: ' + strText12 +'<br/>a: ' + strText13+  '<br/>a: ' + strText14+ '<br/>a: ' + strText15 +'<br/>a: ' + strText16+  '<br/>a: ' + strText17+ '<br/>a: ' + strText18 +'<br/>a: ' + strText19+  '<br/>a: ' + strText20+'<br/>a:  ' + strText21 + '<br/>a: ' + strText22 +'<br/>a: ' + strText23+  '<br/>a: ' + strText24+ '<br/>a: ' + strText25 +'<br/>a: ' + strText26+  '<br/>a: ' + strText27+ '<br/>a: ' + strText28 +'<br/>a: ' + strText29+  '<br/>a: ' + strText30+'<br/>a:  ' + strText31 + '<br/>a: ' + strText32 +'<br/>a: ' + strText33+  '<br/>a: ' + strText34+ '<br/>a: ' + strText35 +'<br/>a: ' + strText36+  '<br/>a: ' + strText37+ '<br/>a: ' + strText38;
-    myFunction();
+    var result = '%0AYour Name:   ' + strText1 + '%0AYour Date and time of Birth: ' + strText2 +'%0ACountry and Big City of Your Birth: ' + strText3+  '%0AYour Educational Qualification: ' + strText4+ '%0AWhat are you doing: ' + strText5 +'%0AExplain About Your Job/Business: ' + strText6+  '%0AWorking in which country: ' + strText7+ '%0AHow many times you married: ' + strText8 +'%0AWith which Wife/Husband you are living now: ' + strText9+  '%0APlease Explain about your Court case problem if you have: ' + strText10+'%0APlease Explain about your Health problems if you have:  ' + strText11 + '%0APlease Explain about your Loan problems if you have: ' + strText12 +'%0AFather Name: ' + strText13+  '%0AFather Alive or Not : ' + strText14+ '%0AFathers occupation: ' + strText15 +'%0AHow many times Father married: ' + strText16+  '%0AMothers Name: ' + strText17+ '%0AMother Alive or Not: ' + strText18 +'%0AMother Age: ' + strText19+  '%0AMothers occupation: ' + strText20+'%0AHow many times Mother married:  ' + strText21 + '%0AYour Husband or Wife Name: ' + strText22 +'%0AYour Husband or Wife Alive or Not: ' + strText23+  '%0AYour Husband or Wife Age: ' + strText24+ '%0AYour Husband or Wife Occupation: ' + strText25 +'%0AHow many times Your Wife/Husband got married: ' + strText26+  '%0AHow many times you got married: ' + strText27+ '%0AHow many Brothers you have and please specify younger or elder and they married or not: ' + strText28 +'%0AHow many Sisters you have and please specify younger or elder and they married or not: ' + strText29+  '%0AHow many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText30+'%0AAbout what you what to know mainly:  ' + strText31 + '%0AYour Contact Number: ' + strText32 +'%0AYour WhatsApp Number: ' + strText33+  '%0APlease type here if you want to share something with us: ' + strText34+ '%0AThumb: ' + strText35 +'%0Aa: ' + strText36+  '%0Aa: ' + strText37+ '%0Aa: ' + strText38;
+    var result1 = '<br/>Your Name:   ' + strText1 + '<br/>Your Date and time of Birth: ' + strText2 +'<br/>Country and Big City of Your Birth: ' + strText3+  '<br/>Your Educational Qualification: ' + strText4+ '<br/>What are you doing: ' + strText5 +'<br/>Explain About Your Job/Business: ' + strText6+  '<br/>Working in which country: ' + strText7+ '<br/>How many times you married: ' + strText8 +'<br/>With which Wife/Husband you are living now: ' + strText9+  '<br/>Please Explain about your Court case problem if you have: ' + strText10+'<br/>Please Explain about your Health problems if you have:  ' + strText11 + '<br/>Please Explain about your Loan problems if you have: ' + strText12 +'<br/>Father Name: ' + strText13+  '<br/>Father Alive or Not : ' + strText14+ '<br/>Fathers occupation: ' + strText15 +'<br/>How many times Father married: ' + strText16+  '<br/>Mothers Name: ' + strText17+ '<br/>Mother Alive or Not: ' + strText18 +'<br/>Mother Age: ' + strText19+  '<br/>Mothers occupation: ' + strText20+'<br/>How many times Mother married:  ' + strText21 + '<br/>Your Husband or Wife Name: ' + strText22 +'<br/>Your Husband or Wife Alive or Not: ' + strText23+  '<br/>Your Husband or Wife Age: ' + strText24+ '<br/>Your Husband or Wife Occupation: ' + strText25 +'<br/>How many times Your Wife/Husband got married: ' + strText26+  '<br/>How many times you got married: ' + strText27+ '<br/>How many Brothers you have and please specify younger or elder and they married or not: ' + strText28 +'<br/>How many Sisters you have and please specify younger or elder and they married or not: ' + strText29+  '<br/>How many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText30+'<br/>About what you what to know mainly:  ' + strText31 + '<br/>Your Contact Number: ' + strText32 +'<br/>Your WhatsApp Number: ' + strText33+  '<br/>Please type here if you want to share something with us: ' + strText34+ '<br/>Thumb: ' + strText35 +'<br/>a: ' + strText36+  '<br/>a: ' + strText37+ '<br/>a: ' + strText38;
+
     var finalMsg = encodeURI(result);
          document.getElementById("bookingForm").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -56,7 +56,15 @@ function testVariable() {
 	alert("Fill all details");
         }else
         {
-		myFunction();
+		 Email.send({
+                Host:"smtp.gmail.com",
+                Username:'thereciprocalolutions.projects@gmail.com',
+                Password:'cgenxthsgpwplxoy',
+                To: 'thereciprocalsolutions@gmail.com',
+                From: 'thereciprocalolutions.projects@gmail.com',
+                Subject: 'New Booking '+strText1,
+                Body:'The New Booking Details <br/>'+result1+'<br/> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
+                }).then((message)=>alert("Your Details Share With TRS!!<br>We Will Get Touch In 24 Hours!"));
 		//telegram
            // const request = new XMLHttpRequest();
 		//const url = ''+result;
@@ -67,25 +75,11 @@ function testVariable() {
 			if(response.status==200){
 				console.log("red");
 				localStorage.setItem("result1", strText7);
-				window.location.href = "bookingSuccess.html";
+				window.location.href = "bc.html";
 			}
 		})    			
         }
-		     function myFunction() 
-                {
-                Email.send({
-                Host:"smtp.gmail.com",
-                Username:'thereciprocalolutions.projects@gmail.com',
-                Password:'cgenxthsgpwplxoy',
-                To: 'thereciprocalsolutions@gmail.com',
-                From: 'thereciprocalolutions.projects@gmail.com',
-                Subject: 'New Booking '+strText1,
-                Body:'The New Booking Details <br/>'+result1+'<br/> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
-                }).then((message)=>alert("Your Details Share With TRS!!<br>We Will Get Touch In 24 Hours!"));
-                }
+
 
 });
 }       
-
-        
-
