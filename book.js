@@ -3,7 +3,7 @@ function testVariable() {
     var strText2 = document.getElementById("dob").value;
     var strText3 = document.getElementById("dobcity").value;
     var strText4 = document.getElementById("qualification").value;
-    var strText5 = document.getElementById("workexpalinwork").value;
+    var strText5 = document.getElementById("work").value;
     var strText6 = document.getElementById("expalinwork").value;
     var strText7 = document.getElementById("workcountry").value;
     var strText8 = document.getElementById("marriedtimes").value;
