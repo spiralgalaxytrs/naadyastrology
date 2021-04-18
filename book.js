@@ -97,7 +97,7 @@ function testVariable() {
                 To: 'thereciprocalsolutions@gmail.com',
                 From: 'thereciprocalolutions.projects@gmail.com',
                 Subject: 'New Booking '+strText1,
-                Body:'The New Booking Details <br/>'+result1+'<br/> <img src='strText38' alt="thumb" width="500" height="600"> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
+                Body:'The New Booking Details <br/>'+result1+'<br/> <img src='+strText38+' alt="thumb"> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
                 }).then((message)=>alert("Your Details Share With TRS!!\nWe Will Get Touch In 24 Hours!"));
 		//telegram
            // const request = new XMLHttpRequest();
