@@ -1,11 +1,5 @@
 /*
-Copyright (c) 2018
-------------------------------------------------------------------
-[Master Stylesheet]
 
-Project: Astrology
-Version: 1.0
-Assigned to: Themeforest
 -------------------------------------------------------------------
 
 [Table of contents]
@@ -544,6 +538,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_menu_btn{
 	display:none;
+    
 }
 .menu_fixed {
     position: fixed;
@@ -3621,8 +3616,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     display: block;
     float: none;
     position: absolute;
-    top: 20px;
-    right: 15px;
+    right: 25px;
+    top:50px;
     border: none;
     width: 40px;
     height: 30px;
