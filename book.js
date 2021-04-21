@@ -187,8 +187,8 @@ var y = document.getElementById("ve");
                 }).then((message)=>alert("Your Details Share With TRS!!\nWe Will Get Touch In 24 Hours!"));
 		//telegram
            	const request = new XMLHttpRequest();
-		const url = 'https://api.telegram.org/bot1673038851:AAEIqwAgS-TtA331gOhUHVhRnVJf_34bUsE/sendMessage?chat_id=-1001225437691&text='+result;
-        request.open("post", url);
+		const url1 = 'https://api.telegram.org/bot1673038851:AAEIqwAgS-TtA331gOhUHVhRnVJf_34bUsE/sendMessage?chat_id=-1001225437691&text='+result;
+        request.open("post", url1);
         request.send();
         fetch("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message="+Clink+"/%0AContact No: "+CPh+"%0AHello "+strText1+",Thank you for contacting Naady Astrology. We will get back to you within 48 hours. Click here to chat on Whatsapp!"+wp+".&language=english&route=p&numbers="+strText34)
 	
