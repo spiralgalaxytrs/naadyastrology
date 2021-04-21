@@ -78,6 +78,7 @@ function testVariable() {
 	'<br/>Your Contact Number: ' + strText34 +
 	'<br/>WhatsApp Number: ' + strText35 +
 	'<br/> Email Address: ' + strText36+ 
+	'<br/> URL: ' + url+ 
 	'<br/>Date And Time Of Appointment: ' + strText37+
 	'<br/>Thumb Image Url: ' + strText38;
 
