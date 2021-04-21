@@ -88,7 +88,44 @@ function testVariable() {
 	var Cname="naadyastrology";
 	var wp="https://wa.me/+919443564198";
 
-    var result = '%0AYour Name:   ' + strText1 + '%0AYour Date and time of Birth: ' + strText2 +'%0ACountry and Big City of Your Birth: ' + strText3+  '%0AYour Educational Qualification: ' + strText4+ '%0AWhat are you doing: ' + strText5 +'%0AExplain About Your Job/Business: ' + strText6+  '%0AWorking in which country: ' + strText7+ '%0AHow many times you married: ' + strText8 +'%0AWith which Wife/Husband you are living now: ' + strText9+  '%0APlease Explain about your Court case problem if you have: ' + strText10+'%0APlease Explain about your Health problems if you have:  ' + strText11 + '%0APlease Explain about your Loan problems if you have: ' + strText12 +'%0AFather Name: ' + strText13+  '%0AFather Alive or Not : ' + strText14+ '%0AFathers occupation: ' + strText15 +'%0AHow many times Father married: ' + strText16+  '%0AMothers Name: ' + strText17+ '%0AMother Alive or Not: ' + strText18 +'%0AMother Age: ' + strText19+  '%0AMothers occupation: ' + strText20+'%0AHow many times Mother married:  ' + strText21 + '%0AYour Husband or Wife Name: ' + strText22 +'%0AYour Husband or Wife Alive or Not: ' + strText23+  '%0AYour Husband or Wife Age: ' + strText24+ '%0AYour Husband or Wife Occupation: ' + strText25 +'%0AHow many times Your Wife/Husband got married: ' + strText26+  '%0AHow many times you got married: ' + strText27+ '%0AHow many Brothers you have and please specify younger or elder and they married or not: ' + strText28 +'%0AHow many Sisters you have and please specify younger or elder and they married or not: ' + strText29+  '%0AHow many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText30+'%0AAbout what you what to know mainly:  ' + strText31 + '%0AYour Contact Number: ' + strText32 +'%0AYour WhatsApp Number: ' + strText33+  '%0APlease type here if you want to share something with us: ' + strText34+ '%0AThumb: ' + strText35 +'%0Aa: ' + strText36+  '%0Aa: ' + strText37+ '%0Aa: ' + strText38+'%0A'+url;
+    var result = '%0AYour Name:   ' + strText1 +
+	'%0AYour Date and time of Birth: ' + strText2 +
+	'%0ACountry and Big City of Your Birth: ' + strText3+ 
+	'%0AYour Educational Qualification: ' + strText4+
+	'%0AWhat are you doing: ' + strText5 +
+	'%0AExplain About Your Job/Business: ' + strText6+
+	'%0AWorking in which country: ' + strText7+ 
+	'%0AHow many times you married: ' + strText8 +
+	'%0AWith which Wife/Husband you are living now: ' + strText9+ 
+	'%0APlease Explain about your Court case problem if you have: ' + strText10+
+	'%0APlease Explain about your Health problems if you have:  ' + strText11 + 
+	'%0APlease Explain about your Loan problems if you have: ' + strText12 +'%0AFather Name: ' + strText13+ 
+	'%0AFather Alive or Not : ' + strText14+
+	'%0AFather Age: ' + strText15+
+	'%0AFathers occupation: ' + strText16 +
+	'%0AHow many times Father married: ' + strText17+ 
+	'%0AMothers Name: ' + strText18+ 
+	'%0AMother Alive or Not: ' + strText19+
+	'%0AMother Age: ' + strText20+ 
+	'%0AMothers occupation: ' + strText21+
+	'%0AHow many times Mother married:  ' + strText22 + 
+	'%0AYour Husband or Wife Name: ' + strText23 +
+	'%0AYour Husband or Wife Alive or Not: ' + strText24+
+	'%0AYour Husband or Wife Age: ' + strText25+
+	'%0AYour Husband or Wife Occupation: ' + strText26 +
+	'%0AHow many times Your Wife/Husband got married: ' + strText27+
+	'%0AHow many times you got married: ' + strText28+
+	'%0AHow many Brothers you have and please specify younger or elder and they married or not: ' + strText29 +
+	'%0AHow many Sisters you have and please specify younger or elder and they married or not: ' + strText30+  
+	'%0AHow many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText31+
+	'%0APlease type here if you want to share something with us: ' + strText32+
+	'%0AAbout what you what to know mainly:  ' + strText33 +
+	'%0AYour Contact Number: ' + strText34 +
+	'%0AWhatsApp Number: ' + strText35 +
+	'%0A Email Address: ' + strText36+ 
+	'%0A URL: ' + url+ 
+	'%0ADate And Time Of Appointment: ' + strText37+
+	'%0AThumb Image Url: ' + strText38;
     var result1 = '<br/>Your Name:   ' + strText1 +
 	'<br/>Your Date and time of Birth: ' + strText2 +
 	'<br/>Country and Big City of Your Birth: ' + strText3+ 
@@ -149,10 +186,10 @@ var y = document.getElementById("ve");
                 Body:'The New Booking Details <br/>'+result1+'<br/> <img src='+url+' alt="thumb"> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
                 }).then((message)=>alert("Your Details Share With TRS!!\nWe Will Get Touch In 24 Hours!"));
 		//telegram
-           // const request = new XMLHttpRequest();
-		//const url = ''+result;
-       // request.open("post", url); 
-       // request.send();
+           	const request = new XMLHttpRequest();
+		const url = 'https://api.telegram.org/bot1673038851:AAEIqwAgS-TtA331gOhUHVhRnVJf_34bUsE/sendMessage?chat_id=-1001225437691&text='+result;
+        request.open("post", url);
+        request.send();
         fetch("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message="+Clink+"/%0AContact No: "+CPh+"%0AHello "+strText1+",Thank you for contacting Naady Astrology. We will get back to you within 48 hours. Click here to chat on Whatsapp!"+wp+".&language=english&route=p&numbers="+strText34)
 	
 		.then(response=>{
