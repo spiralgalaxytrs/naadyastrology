@@ -18,9 +18,9 @@ function upload() {
         var progress=(snapshot.bytesTransferred/snapshot.totalBytes)*100;
         console.log("upload is " + progress +" done");
         document.getElementById("up").innerHTML=Math.round(progress);
-	    var y = document.getElementById("m");
-       		 y.style.display = "block";
-	    document.getElementById("m").style.width = progress;
+	    //document.getElementById("m").style.width = Math.round(progress);
+        const progressBar = document.querySelector('progress');
+        progressBar.setAttribute('value', progress);
     },function (error) {
         //handle error here
         console.log(error.message);
@@ -31,8 +31,13 @@ function upload() {
             //get your upload image url here...
             //console.log(downlaodURL);
             //document.getElementById("url").innerHTML=downlaodURL;
+            var x = document.getElementById("up");
+            x.style.display = "none";
+            var z = document.getElementById("m");
+            z.style.display = "none";
 		 var y = document.getElementById("ve");
        		 y.style.display = "block";
+
             url=downlaodURL;
         });
     });
