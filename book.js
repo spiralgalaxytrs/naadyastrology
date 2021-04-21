@@ -20,7 +20,7 @@ function upload() {
         document.getElementById("up").innerHTML=Math.round(progress);
 	    //document.getElementById("m").style.width = Math.round(progress);
         const progressBar = document.querySelector('progress');
-        progressBar.setAttribute('value', progress);
+        progressBar.setAttribute('value', progress-1);
     },function (error) {
         //handle error here
         console.log(error.message);
