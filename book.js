@@ -83,9 +83,10 @@ function testVariable() {
     var strText37 = document.getElementById("appointmenttime").value;
     var strText38 = document.getElementById("Thumb").value;
    
-	var Clink="https://xyz.com";
-	var CPh="99123456788";
-	var Cname="xyz";
+	var Clink="https://naadyastrology.com";
+	var CPh="9443564198";
+	var Cname="naadyastrology";
+	var wp="https://wa.me/+919443564198";
 
     var result = '%0AYour Name:   ' + strText1 + '%0AYour Date and time of Birth: ' + strText2 +'%0ACountry and Big City of Your Birth: ' + strText3+  '%0AYour Educational Qualification: ' + strText4+ '%0AWhat are you doing: ' + strText5 +'%0AExplain About Your Job/Business: ' + strText6+  '%0AWorking in which country: ' + strText7+ '%0AHow many times you married: ' + strText8 +'%0AWith which Wife/Husband you are living now: ' + strText9+  '%0APlease Explain about your Court case problem if you have: ' + strText10+'%0APlease Explain about your Health problems if you have:  ' + strText11 + '%0APlease Explain about your Loan problems if you have: ' + strText12 +'%0AFather Name: ' + strText13+  '%0AFather Alive or Not : ' + strText14+ '%0AFathers occupation: ' + strText15 +'%0AHow many times Father married: ' + strText16+  '%0AMothers Name: ' + strText17+ '%0AMother Alive or Not: ' + strText18 +'%0AMother Age: ' + strText19+  '%0AMothers occupation: ' + strText20+'%0AHow many times Mother married:  ' + strText21 + '%0AYour Husband or Wife Name: ' + strText22 +'%0AYour Husband or Wife Alive or Not: ' + strText23+  '%0AYour Husband or Wife Age: ' + strText24+ '%0AYour Husband or Wife Occupation: ' + strText25 +'%0AHow many times Your Wife/Husband got married: ' + strText26+  '%0AHow many times you got married: ' + strText27+ '%0AHow many Brothers you have and please specify younger or elder and they married or not: ' + strText28 +'%0AHow many Sisters you have and please specify younger or elder and they married or not: ' + strText29+  '%0AHow many Children you have and please specify elder to younger and they married or not and their education and job: ' + strText30+'%0AAbout what you what to know mainly:  ' + strText31 + '%0AYour Contact Number: ' + strText32 +'%0AYour WhatsApp Number: ' + strText33+  '%0APlease type here if you want to share something with us: ' + strText34+ '%0AThumb: ' + strText35 +'%0Aa: ' + strText36+  '%0Aa: ' + strText37+ '%0Aa: ' + strText38+'%0A'+url;
     var result1 = '<br/>Your Name:   ' + strText1 +
@@ -126,14 +127,16 @@ function testVariable() {
 	'<br/> URL: ' + url+ 
 	'<br/>Date And Time Of Appointment: ' + strText37+
 	'<br/>Thumb Image Url: ' + strText38;
+var y = document.getElementById("ve");
+       		
 
     var finalMsg = encodeURI(result);
          document.getElementById("bookingForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    if(strText1==""||strText2==""||strText3==""||strText4==""||strText5==""||strText6==""||strText7==""||strText8==""||strText9==""||strText10==""||strText11==""||strText12==""||strText13==""||strText14==""||strText15==""||strText16==""||strText17==""||strText18==""||strText19==""||strText20==""||strText21==""||strText22==""||strText23==""||strText24==""||strText25==""||strText26==""||strText27==""||strText28==""||strText29==""||strText30==""||strText31==""||strText32==""||strText33==""||strText34==""||strText35==""||strText36==""||strText37==""||strText38=="")
+    if(strText1==""||strText2==""||strText3==""||strText4==""||strText5==""||strText6==""||strText7==""||strText8==""||strText9==""||strText10==""||strText11==""||strText12==""||strText13==""||strText14==""||strText15==""||strText16==""||strText17==""||strText18==""||strText19==""||strText20==""||strText21==""||strText22==""||strText23==""||strText24==""||strText25==""||strText26==""||strText27==""||strText28==""||strText29==""||strText30==""||strText31==""||strText32==""||strText33==""||strText34==""||strText35==""||strText36==""||strText37==""||strText38==""||||y.style.display === "none")
         {
         console.log('error');
-	alert("Fill all details");
+	alert("Fill all details/Upload a file");
         }else
         {
 		 Email.send({
@@ -150,7 +153,8 @@ function testVariable() {
 		//const url = ''+result;
        // request.open("post", url); 
        // request.send();
-        fetch("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message="+Clink+"/%0AContact No: "+CPh+"%0AHello "+strText32+",%0AThank you for Booking with "+Cname+".Your "+strText2+" Booking has been Confirmed on "+strText4+".&language=english&route=p&numbers="+strText34)
+        fetch("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message="+Clink+"/%0AContact No: "+CPh+"%0AHello "+strText1+",Thank you for contacting Naady Astrology. We will get back to you within 48 hours. Click here to chat on Whatsapp!"+wp+".&language=english&route=p&numbers="+strText34)
+	
 		.then(response=>{
 			if(response.status==200){
 				console.log("red");
