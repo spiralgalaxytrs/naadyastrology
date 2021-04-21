@@ -170,7 +170,7 @@ var y = document.getElementById("ve");
     var finalMsg = encodeURI(result);
          document.getElementById("bookingForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    if(strText1==""||strText2==""||strText3==""||strText4==""||strText5==""||strText6==""||strText7==""||strText8==""||strText9==""||strText10==""||strText11==""||strText12==""||strText13==""||strText14==""||strText15==""||strText16==""||strText17==""||strText18==""||strText19==""||strText20==""||strText21==""||strText22==""||strText23==""||strText24==""||strText25==""||strText26==""||strText27==""||strText28==""||strText29==""||strText30==""||strText31==""||strText32==""||strText33==""||strText34==""||strText35==""||strText36==""||strText37==""||strText38==""||y.style.display === "none")
+    if(y.style.display === "none")
         {
         console.log('error');
 	alert("Fill all details/Upload a file");
