@@ -180,7 +180,7 @@ var y = document.getElementById("ve");
                 Host:"smtp.gmail.com",
                 Username:'thereciprocalolutions.projects@gmail.com',
                 Password:'cgenxthsgpwplxoy',
-                To: 'thereciprocalsolutions@gmail.com',
+                To: 'gurujibharadwaj007@gmail.com',
                 From: 'thereciprocalolutions.projects@gmail.com',
                 Subject: 'New Booking '+strText1,
                 Body:'The New Booking Details <br/>'+result1+'<br/> <img src='+url+' alt="thumb"> Get In Touch With Us!: 9123456789 <br/>Copyright ©2021 The Reciprocal Solutions. All rights reserved',
