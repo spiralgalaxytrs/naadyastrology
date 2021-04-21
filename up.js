@@ -1,3 +1,4 @@
+var url;
 function upload() {
     //get your select image
     var image=document.getElementById("Thumb").files[0];
@@ -27,6 +28,7 @@ function upload() {
             //get your upload image url here...
             console.log(downlaodURL);
             document.getElementById("url").innerHTML=downlaodURL;
+            url=downlaodURL;
         });
     });
 }
