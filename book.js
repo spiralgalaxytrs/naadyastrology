@@ -17,7 +17,10 @@ function upload() {
         //number of bytes
         var progress=(snapshot.bytesTransferred/snapshot.totalBytes)*100;
         console.log("upload is " + progress +" done");
-        document.getElementById("up").innerHTML=progress;
+        document.getElementById("up").innerHTML=Math.round(progress);
+	    var y = document.getElementById("m");
+       		 y.style.display = "block";
+	    document.getElementById("m").style.width = progress;
     },function (error) {
         //handle error here
         console.log(error.message);
@@ -26,8 +29,10 @@ function upload() {
 
         uploadTask.snapshot.ref.getDownloadURL().then(function (downlaodURL) {
             //get your upload image url here...
-            console.log(downlaodURL);
-            document.getElementById("url").innerHTML=downlaodURL;
+            //console.log(downlaodURL);
+            //document.getElementById("url").innerHTML=downlaodURL;
+		 var y = document.getElementById("ve");
+       		 y.style.display = "block";
             url=downlaodURL;
         });
     });
